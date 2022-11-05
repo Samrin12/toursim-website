@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header part start */
+.header {
+    background-color: #eae7e4bf;
+}
+
+.header .form-control {
+    color: #54524f;
+    background-color: #c3bfbcb3;
+    border: 1px solid #ced4da;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.header .navbar-nav .nav-link {
+    padding-right: 0;
+    color: #54524f;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+
+/* header part end */
+
+/* sign up part start */
+.log-in {
+    background-image: url(../image/offer1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.log-in .hg {
+    min-height: 100vh;
+}
+
+.log-in .form-page {
+    background-color: #41464b94;
+    margin-top: 9% !important;
+    border-radius: 8px;
+    margin-right: 90px !important;
+    margin-bottom: 11%;
+}
+
+.log-in .form-page h1 {
+
+    color: #e3983c;
+
+    margin: 25px auto 10px;
+
+    font-size: 36px;
+
+    font-weight: 700;
+
+    text-shadow: 2px 2px #f1e9e985;
+}
+
+.log-in .form-page form {
+
+    padding-left: 20px;
+
+    padding-right: 20px;
+
+    margin-bottom: 20px;
+}
+
+.log-in .form-page form input {
+
+    margin-bottom: 15px;
+
+    background: transparent;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    border: 2px solid #fff;
+
+    border-radius: 16px;
+}
+
+.log-in .form-page input::placeholder {
+    color: #fff;
+}
+
+.log-in .form-page input[type=submit] {
+
+    margin-bottom: 35px;
+
+    margin-top: 7px;
+
+    padding: 6px 32px;
+
+    color: #fff;
+
+    border: 1px solid #e3983c;
+
+    background: #e3983c;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+
+}
+
+/* sign up part end */
+/* copyright part start */
+
+.copyright {
+    background: #7f777059;
+}
+
+.copyright p {
+    text-align: center;
+    padding: 15px;
+    color: #6d635a;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.copyright span {
+    color: #ea8b16;
+    font-weight: 800;
+}
+
+/* copyright part end */

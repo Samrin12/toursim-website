@@ -1,0 +1,564 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header part start */
+.header {
+    background-color: #eae7e4bf;
+}
+
+.header .form-control {
+    color: #54524f;
+    background-color: #c3bfbcb3;
+    border: 1px solid #ced4da;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.header .navbar-nav .nav-link {
+    padding-right: 0;
+    color: #54524f;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+
+/* header part end */
+/* banner part start */
+.banner {
+    background-image: url(../image/banner.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    margin-bottom: 60px;
+}
+
+.banner .hg {
+    min-height: 90vh;
+}
+
+.banner .content {}
+
+.banner .content h1 {
+    color: #deb37e;
+    text-transform: uppercase;
+    font-size: 59px;
+    font-weight: 800;
+    text-shadow: 1px 1px 3px #787070;
+}
+
+.banner .content h6 {
+    color: #54524f;
+    font-size: 25px;
+    padding-top: 17px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.banner .content .read_more {
+    color: #776c64;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: 1px solid #7f77705e;
+    border-radius: 30px;
+    background: #7f77705e;
+    padding: 5px 20px;
+    margin: 15px 0 10px 0;
+    transition: .4s all ease-in-out;
+}
+
+.banner .content .read_more:hover {
+    background-color: transparent;
+    border: 1px solid #7f7770;
+}
+
+.banner .content p {
+    color: #54524f;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 19px;
+}
+
+/* banner part end */
+/* tours part start */
+.tours {
+    margin-bottom: 50px;
+    margin-top: 80px;
+    position: relative
+}
+
+.tours .content {}
+
+.tours .content h1 {
+    color: #e2a355;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.tours .content p {
+    width: 53%;
+    margin: auto;
+    color: #7f7770;
+    font-size: 18px;
+}
+
+.tours .tour {}
+
+.tours .tour .image {}
+
+.tours .tour .tour_content {
+    background: #7f7770;
+    height: 170px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.tours .tour .tour_content h5 {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.tours .tour .tour_content p {
+    font-style: italic;
+    color: #fff;
+    font-size: 17px;
+}
+
+.tours .show_more {
+    color: #fff;
+    border: 3px solid #7f7770;
+    background: #7f7770;
+    margin-top: 55px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 8px 30px;
+    transition: .4s all ease-in-out;
+}
+
+.tours .show_more:hover {
+    color: #7f7770;
+    border: 3px solid #7f7770;
+    background-color: transparent;
+}
+
+.tours .design {
+    top: 70%;
+    position: absolute;
+}
+
+.tours .design img {
+    width: 75%;
+}
+
+/* tours part end */
+/* hotel and car part start */
+.hotel {
+    margin-top: 108px;
+    margin-bottom: 110px;
+}
+
+.hotel .hotel_image {
+    background-image: url(../image/hotel.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+}
+
+.hotel .hotel_content {
+    padding: 0;
+    background: #deb37e;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 75px;
+    padding-right: 50px;
+}
+
+.hotel .hotel_content h4 {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.hotel .hotel_content p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.hotel .hotel_content .rd_more {
+    color: #fff;
+    border: 3px solid #ef9a31;
+    background: #ef9a31;
+    margin-top: 8px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 8px 30px;
+}
+
+.hotel .car_image {
+    background-image: url(../image/car.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+}
+
+.hotel .car_content {
+    padding: 0;
+    background: #7f7770;
+    color: #fff;
+    padding-left: 45px;
+    padding-top: 60px;
+    padding-right: 50px;
+}
+
+.hotel .car_content h4 {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.hotel .car_content p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.hotel .car_content .rd_more {
+    color: #fff;
+    border: 3px solid #e2a355;
+    background: #e2a355;
+    margin-top: 4px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 8px 30px;
+}
+
+/* Hotel and car part end */
+/* quote part start */
+.quote {
+    background-image: url(../image/design1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    margin-top: 30px;
+    /* margin-bottom: 50px; */
+}
+
+.quote .hg {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.quote h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.quote p {
+    color: #fff;
+    font-weight: 500;
+    padding-top: 10px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* quote part end */
+/* booking part start */
+.booking {
+    background-image: url(../image/Booking.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 90px;
+    background-attachment: fixed;
+}
+
+.booking::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #486067e0;
+    opacity: 80%;
+    z-index: -1;
+}
+
+.booking .hg {}
+
+.booking .heading {}
+
+.booking .heading h1 {
+    color: #dbad74;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.booking form {}
+
+.booking form input {}
+
+.booking form input {
+    background: transparent;
+    margin-bottom: 30px;
+}
+
+.booking form input[type="submit"] {
+    color: #fff;
+    border: 3px solid #e2a355;
+    background: #e2a355;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 8px 30px;
+    width: auto;
+    margin: 30px auto;
+}
+
+.booking form input::placeholder {
+    color: rgb(227, 219, 219);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.booking form textarea {
+    background: transparent;
+}
+
+.booking form textarea::placeholder {
+    color: rgb(227, 219, 219);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* booking part end */
+/* offers paret start */
+.offer_part {}
+
+.offer_part .content {}
+
+.offer_part .content h1 {
+    color: #e2a355;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.offer_part .content p {
+    width: 53%;
+    margin: auto;
+    color: #7f7770;
+    font-size: 18px;
+}
+
+.offer_part .offers_row {}
+
+.offer_part .offers_row .offer {
+    border: 1px solid #0000004f;
+    min-height: -2vh;
+    padding: 70px 20px;
+    background-image: url(../image/offer2.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    transition: .4s all ease-in-out;
+}
+
+.offer_part .offers_row .offer:hover {
+    background-position: center;
+
+}
+
+.offer_part .offers_row .offer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #7f7770;
+    opacity: 50%;
+    z-index: -1;
+    transition: .4s all ease-in-out;
+}
+
+/* .offer_part .offers_row .offer:hover::before {
+    opacity: 50%;
+} */
+
+
+.offer_part .offers_row .offer h4 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+/* .offer_part .offers_row .offer:hover h4 {
+    color: #fff;
+}
+
+.offer_part .offers_row .offer:hover p {
+    color: #fff;
+} */
+
+.offer_part .offers_row .offer p {
+    color: #fffdfd;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* offer part end */
+/* about part start */
+.about {
+    min-height: 60vh;
+    margin-top: 120px;
+}
+
+.about .hg {
+    min-height: 60vh;
+}
+
+.about .image {
+    background-image: url(../image/About.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about .content {
+    padding: 0px 50px;
+}
+
+.about .content h1 {
+    text-align: left;
+    color: #e2a355;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.about .content p {
+    text-align: left;
+    margin: auto;
+    color: #7f7770;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.about .content .rd_more {
+    color: #fff;
+    border: 3px solid #e2a355;
+    background: #e2a355;
+    margin-top: 4px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 8px 30px;
+}
+
+/* about part end */
+/* footer part start */
+footer {
+    background: #7f7770;
+    min-height: 50vh;
+    margin-top: 80px;
+}
+
+footer .hg {
+    min-height: 50vh;
+}
+
+footer .title {
+    margin-right: 140px;
+}
+
+footer .title h1 {
+    color: #fff;
+    font-size: 30px;
+}
+
+footer .title p {
+    color: #fff;
+    font-style: italic;
+    font-size: 18px;
+}
+
+footer .list {
+    min-height: 25vh;
+}
+
+footer .list h6 {
+    font-size: 28px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+footer .list ul {
+    list-style: none;
+    padding: 0;
+    color: #fff;
+}
+
+footer .list ul li {
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* footer part end */
+/* copyright part start */
+
+.copyright {
+    background: #7f777059;
+}
+
+.copyright p {
+    text-align: center;
+    padding: 15px;
+    color: #6d635a;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.copyright span {
+    color: #ea8b16;
+    font-weight: 800;
+}
+
+/* copyright part end */

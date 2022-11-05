@@ -1,0 +1,283 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color:#837870;
+}
+
+/*body{
+    background-image: url(image/backg.jpg) ;
+}*/
+
+
+.header {
+    background-color: #eae7e4bf;
+}
+
+.header .form-control {
+    color: #54524f;
+    background-color: #c3bfbcb3;
+    border: 1px solid #ced4da;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.header .navbar-nav .nav-link {
+    padding-right: 0;
+    color: #54524f;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+
+
+
+
+
+.col-1{
+    background-image:url(../image/4.jpg);
+   
+    background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+    
+   
+   height: 500px;
+   width: 1170px;
+   margin: auto;
+      
+}
+/*.col-2{
+    background-image:url(images/2.jpg);
+   
+    background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+    
+   
+   height: 400px;
+   width: 500px;
+   margin: auto;
+      
+}*/
+.sec2{
+    padding-bottom: 70px;
+   margin-bottom: -10px;
+}
+
+
+
+
+.header1{
+    text-align: center;
+    background-color: #f5a54e;
+    color: white;
+    
+   
+}
+
+.passion{
+    text-align: center;
+    
+    padding-bottom: 40px;
+    font-size: 50;
+    color:#f5a54e;
+    
+}
+
+.desc1{
+    text-align: justify;
+    padding-left:80px;
+    padding-right:80px;
+    
+    
+}
+
+
+.sec3{
+    background-color: bisque;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 0;
+   
+    
+}
+
+/*..............................................................*/
+
+.sec4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    margin-top: 0;
+}
+
+.container2{
+    width: 720px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    
+}
+
+
+.item-3, .item-4{
+    margin: 0;
+    
+}
+
+
+.row2{
+    display: flex;
+    
+   
+}
+
+.col21, .col22{
+    width: 50%;
+    height: 300px;
+    text-align: justify;  
+        
+}
+
+.col21{
+    padding-top: none;
+    padding-left: 20px
+}
+
+.p1{
+    
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.p2{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.image{
+    height: 300px;
+    width: 350px;
+}
+
+.learn_more{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 7px;
+    background-color: #0b3954 ;
+    color: white;
+}
+
+/*-------map-------*/
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:389px;
+    width:699px;}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:400px;
+    width:700px;}
+
+.row3{
+    display: flex;
+    justify-content: center;
+}
+
+.padd{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.sec5{
+    background-color: bisque;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+}
+
+/*----footer-----*/
+footer {
+    background: #7f7770;
+    min-height: 50vh;
+    margin-top: 80px;
+}
+
+footer .hg {
+    min-height: 50vh;
+}
+
+footer .title {
+    margin-right: 140px;
+}
+
+footer .title h1 {
+    color: #fff;
+    font-size: 30px;
+}
+
+footer .title p {
+    color: #fff;
+    font-style: italic;
+    font-size: 18px;
+}
+
+footer .list {
+    min-height: 25vh;
+}
+
+footer .list h6 {
+    font-size: 28px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+footer .list ul {
+    list-style: none;
+    padding: 0;
+    color: #fff;
+}
+
+footer .list ul li {
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* footer part end */
+/* copyright part start */
+
+.copyright {
+    background: #7f777059;
+}
+
+.copyright p {
+    text-align: center;
+    padding: 15px;
+    color: #6d635a;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.copyright span {
+    color: #ea8b16;
+    font-weight: 800;
+}
+
+.list_item{
+    color:white;
+}
